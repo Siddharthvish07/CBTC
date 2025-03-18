@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <img src="images/vk 18.jpg" alt="image" class="profile-img">
+    <h1>Hello, I'm Siddharth Vishwakarma</h1>
+    <p>Aspiring Web Developer | HTML & CSS Enthusiast</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m a beginner web developer passionate about creating websites using HTML and CSS. I enjoy learning and building cool projects like ecommerce and portfolio websites.</p>
+    <div style="margin-top: 20px;">
+        <a href="resume.pdf" download class="btn-project">Download My Resume</a>
+      </div>
+</section>
+
+  <section class="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Basic JavaScript</li>
+    </ul>
+  </section>
+  
+  <section class="projects">
+    <h2>My Projects</h2>
+    <div class="project-item">
+      <h3>EmporifyX - Ecommerce Website</h3>
+      <p>A simple ecommerce site built using HTML, CSS & JavaScript featuring product listings, cart system, login/register and order tracking.</p>
+      <a href="#" class="btn-project">View Project</a>
+    </div>
+  
+    <!-- Add more projects if you want -->
+    <div class="project-item">
+      <h3>Portfolio Website</h3>
+      <p>This personal portfolio website showcasing my skills and projects using basic web development tools.</p>
+      <a href="#" class="btn-project">View Project</a>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Information</h2>
+    <p>Email: siddharthvish0702@gmail.com</p>
+    <p>Phone: 123-456-7890</p>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
